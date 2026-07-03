@@ -11,6 +11,7 @@ build:
         ios:
             command: xcodebuild -project BugBazaar.xcodeproj -scheme BugBazaar -configuration Debug -sdk iphonesimulator -destination 'generic/platform=iOS Simulator' -derivedDataPath build
             output: build/Build/Products/Debug-iphonesimulator/*.app
+            app_id: dcc3ba2f-d31e-4953-9d31-f1675120c130
 
 defaults:
     open_browser: false
