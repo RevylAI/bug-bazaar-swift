@@ -4,6 +4,8 @@ A native SwiftUI port of [RevylAI/bug-bazaar](https://github.com/RevylAI/bug-baz
 
 Like the original, it is a reference app for Revyl auth-bypass deep links.
 
+**Proof of migration:** [docs/VALIDATION.md](docs/VALIDATION.md) — side-by-side screenshots of the React Native original and this port, captured on a Revyl cloud device session, including verification that both intentional demo bugs behave identically.
+
 ## Requirements
 
 - Xcode 16+ (no external dependencies, no package manager)
