@@ -1,0 +1,6 @@
+# Local-only Revyl files
+*
+!.gitignore
+!config.yaml
+!tests/
+!tests/**

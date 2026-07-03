@@ -1,0 +1,17 @@
+# Revyl CLI Configuration
+
+project:
+    name: bug-bazaar-swift
+
+build:
+    system: Xcode
+    command: xcodebuild -project BugBazaar.xcodeproj -scheme BugBazaar -configuration Debug -sdk iphonesimulator -destination 'generic/platform=iOS Simulator' -derivedDataPath build
+    output: build/Build/Products/Debug-iphonesimulator/*.app
+    platforms:
+        ios:
+            command: xcodebuild -project BugBazaar.xcodeproj -scheme BugBazaar -configuration Debug -sdk iphonesimulator -destination 'generic/platform=iOS Simulator' -derivedDataPath build
+            output: build/Build/Products/Debug-iphonesimulator/*.app
+
+defaults:
+    open_browser: false
+    timeout: 1800
