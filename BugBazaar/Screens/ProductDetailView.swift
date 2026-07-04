@@ -62,6 +62,16 @@ struct ProductDetailView: View {
                         Text(product.price.usd)
                             .font(.display(22))
                             .foregroundColor(Theme.priceGray)
+                        if product.price > 50 {
+                            Text("FREE SHIPPING")
+                                .font(.bodyFont(10, bold: true))
+                                .foregroundColor(Theme.inkBlack)
+                                .padding(.vertical, 4)
+                                .padding(.horizontal, 8)
+                                .background(RoundedRectangle(cornerRadius: 6).fill(Theme.stickerGreen))
+                                .padding(.top, 4)
+                                .accessibilityIdentifier("free-shipping-badge")
+                        }
                         Text(product.description)
                             .font(.bodyFont(14))
                             .foregroundColor(Theme.priceGray)
