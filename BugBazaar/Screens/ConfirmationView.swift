@@ -1,9 +1,21 @@
 import SwiftUI
 
 struct ConfirmationView: View {
+    @EnvironmentObject private var cart: CartStore
     @EnvironmentObject private var router: Router
     @State private var appeared = false
-    @State private var orderID = "ORD-\(Int.random(in: 1000...9999))"
+
+    private var latestOrder: Order? {
+        cart.orders.first
+    }
+
+    private var orderID: String {
+        latestOrder?.id ?? "ORD-0000"
+    }
+
+    private var orderTotal: String? {
+        latestOrder.map { $0.total.usd }
+    }
 
     var body: some View {
         VStack(spacing: 0) {
@@ -36,6 +48,17 @@ struct ConfirmationView: View {
                         Text(orderID)
                             .font(.bodyFont(20, bold: true))
                             .foregroundColor(Theme.inkBlack)
+
+                        if let orderTotal {
+                            Text("TOTAL CHARGED")
+                                .font(.bodyFont(9, bold: true))
+                                .kerning(1.5)
+                                .foregroundColor(Theme.gray)
+                                .padding(.top, 8)
+                            Text(orderTotal)
+                                .font(.bodyFont(20, bold: true))
+                                .foregroundColor(Theme.priceGray)
+                        }
                     }
                     .padding(.vertical, 12)
                     .padding(.horizontal, 24)
