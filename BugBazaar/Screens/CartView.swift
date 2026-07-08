@@ -210,7 +210,7 @@ struct CartView: View {
                     .foregroundColor(Theme.inkBlack)
                 Spacer()
                 Text(grandTotal.usd)
-                    .font(.display(18))
+                    .font(.system(size: 18, weight: .bold))
                     .foregroundColor(Theme.inkBlack)
             }
         }
