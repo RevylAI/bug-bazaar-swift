@@ -19,7 +19,7 @@ struct ConfirmationView: View {
                 .padding(.bottom, Spacing.l)
 
                 VStack(spacing: 0) {
-                    Text("Order Placed!")
+                    Text("Order Confirmed!")
                         .font(.display(32))
                         .foregroundColor(Theme.inkBlack)
                         .padding(.bottom, Spacing.s)
