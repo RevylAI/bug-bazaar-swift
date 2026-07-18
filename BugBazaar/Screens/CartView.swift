@@ -84,10 +84,10 @@ struct CartView: View {
                 } label: {
                     Text("CHECKOUT · \(grandTotal.usd)")
                         .font(.bodyFont(14, bold: true))
-                        .foregroundColor(Theme.stickerGreen)
+                        .foregroundColor(Theme.paperWhite)
                         .frame(maxWidth: .infinity)
                         .padding(.vertical, 16)
-                        .background(Capsule().fill(Theme.inkBlack))
+                        .background(Capsule().fill(Theme.hotRed))
                 }
                 .buttonStyle(.plain)
                 .accessibilityIdentifier("checkout-button")
