@@ -87,7 +87,7 @@ struct CartView: View {
                         .foregroundColor(Theme.stickerGreen)
                         .frame(maxWidth: .infinity)
                         .padding(.vertical, 16)
-                        .background(Capsule().fill(Theme.inkBlack))
+                        .background(Capsule().fill(Theme.hotRed))
                 }
                 .buttonStyle(.plain)
                 .accessibilityIdentifier("checkout-button")
