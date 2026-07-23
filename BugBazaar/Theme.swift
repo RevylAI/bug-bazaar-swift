@@ -16,6 +16,8 @@ enum Theme {
     static let stickerGreen = Color(hex: 0x0000FF)
     static let mangoOrange = Color(hex: 0x008000)
     static let mangoYellow = Color(hex: 0xFFD500)
+    static let addToCartOrange = Color(hex: 0xFF8C00)
+    static let brightGreen = Color(hex: 0x39FF14)
     static let inkBlack = Color(hex: 0x080808)
     static let paperWhite = Color(hex: 0xFCFCFC)
     static let gray = Color(hex: 0x999999)
