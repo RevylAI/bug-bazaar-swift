@@ -144,10 +144,10 @@ struct ProductDetailView: View {
                 } label: {
                     Text("ADD TO CART")
                         .font(.bodyFont(14, bold: true))
-                        .foregroundColor(Theme.stickerGreen)
+                        .foregroundColor(Theme.paperWhite)
                         .frame(maxWidth: .infinity)
                         .padding(.vertical, 16)
-                        .background(Capsule().fill(Theme.inkBlack))
+                        .background(Capsule().fill(Theme.stickerGreen))
                 }
                 .buttonStyle(.plain)
                 .accessibilityIdentifier("add-to-cart")
