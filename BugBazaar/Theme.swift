@@ -14,7 +14,8 @@ enum Theme {
     // stickerGreen/mangoOrange intentionally match the CSS named colors
     // 'blue' and 'green' used by the original React Native theme.
     static let stickerGreen = Color(hex: 0x0000FF)
-    static let mangoOrange = Color(hex: 0x008000)
+    static let rareSpeciesCollectionGreen = Color(hex: 0x008000)
+    static let mangoOrange = rareSpeciesCollectionGreen
     static let mangoYellow = Color(hex: 0xFFD500)
     static let inkBlack = Color(hex: 0x080808)
     static let paperWhite = Color(hex: 0xFCFCFC)

@@ -23,7 +23,7 @@ struct HeroBanner: View {
                     bottomTrailingRadius: 28,
                     topTrailingRadius: 24
                 )
-                .fill(Theme.mangoOrange)
+                .fill(Theme.rareSpeciesCollectionGreen)
                 HalftoneOverlay(dotSize: 1, spacing: 4, opacity: 0.12)
                     .clipShape(
                         UnevenRoundedRectangle(
@@ -35,7 +35,7 @@ struct HeroBanner: View {
                     )
             }
         )
-        .shadow(color: Theme.stickerGreen.opacity(0.2), radius: 12, x: 0, y: 4)
+        .shadow(color: Theme.rareSpeciesCollectionGreen.opacity(0.2), radius: 12, x: 0, y: 4)
         .padding(Spacing.m)
     }
 }
