@@ -2,7 +2,7 @@ import SwiftUI
 
 enum Tab: String, CaseIterable {
     case shop = "Shop"
-    case search = "Search"
+    case search = "Discover"
     case specimens = "Specimens"
     case account = "Account"
 }

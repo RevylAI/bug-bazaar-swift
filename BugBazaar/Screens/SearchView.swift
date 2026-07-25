@@ -20,7 +20,7 @@ struct SearchView: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
-            Text("Search")
+            Text("Discover")
                 .font(.display(28))
                 .foregroundColor(Theme.inkBlack)
                 .padding(.horizontal, Spacing.m)
