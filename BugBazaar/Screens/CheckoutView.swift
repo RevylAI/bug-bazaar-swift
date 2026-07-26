@@ -77,7 +77,7 @@ struct CheckoutView: View {
 
             footer
         }
-        .background(Theme.paperWhite)
+        .background(Theme.appBackground)
     }
 
     // MARK: Steps
@@ -223,7 +223,7 @@ struct CheckoutView: View {
             .accessibilityIdentifier("checkout-footer-button")
         }
         .padding(Spacing.m)
-        .background(Theme.paperWhite)
+        .background(Theme.appBackground)
         .overlay(alignment: .top) {
             Rectangle().fill(Theme.hairline).frame(height: 1)
         }

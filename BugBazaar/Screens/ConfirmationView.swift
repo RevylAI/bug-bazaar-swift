@@ -83,7 +83,7 @@ struct ConfirmationView: View {
             }
             .padding(Spacing.m)
         }
-        .background(Theme.paperWhite)
+        .background(Theme.appBackground)
         .navigationBarBackButtonHidden(true)
         .onAppear {
             withAnimation(.spring(response: 0.45, dampingFraction: 0.6)) {

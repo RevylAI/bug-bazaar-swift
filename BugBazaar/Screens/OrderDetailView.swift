@@ -38,7 +38,7 @@ struct OrderDetailView: View {
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
             }
         }
-        .background(Theme.paperWhite)
+        .background(Theme.appBackground)
     }
 
     private func statusColor(_ status: OrderStatus) -> Color {

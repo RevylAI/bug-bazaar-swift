@@ -64,7 +64,7 @@ struct SearchView: View {
                 .padding(.bottom, Spacing.xl)
             }
         }
-        .background(Theme.paperWhite)
+        .background(Theme.appBackground)
     }
 
     private var emptyState: some View {

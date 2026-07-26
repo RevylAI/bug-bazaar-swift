@@ -62,7 +62,7 @@ struct AccountView: View {
                 .padding(.bottom, Spacing.xl + 20)
             }
         }
-        .background(Theme.paperWhite)
+        .background(Theme.appBackground)
         .alert(demoAlert ?? "", isPresented: Binding(
             get: { demoAlert != nil },
             set: { if !$0 { demoAlert = nil } }

@@ -36,7 +36,7 @@ struct ProductDetailView: View {
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
             }
         }
-        .background(Theme.paperWhite)
+        .background(Theme.appBackground)
     }
 
     private func detail(_ product: Product) -> some View {
@@ -153,7 +153,7 @@ struct ProductDetailView: View {
                 .accessibilityIdentifier("add-to-cart")
             }
             .padding(Spacing.m)
-            .background(Theme.paperWhite)
+            .background(Theme.appBackground)
             .overlay(alignment: .top) {
                 Rectangle().fill(Theme.hairline).frame(height: 1)
             }

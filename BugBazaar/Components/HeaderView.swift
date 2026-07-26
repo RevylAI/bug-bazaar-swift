@@ -39,7 +39,7 @@ struct HeaderView: View {
         }
         .padding(.horizontal, Spacing.m)
         .padding(.vertical, Spacing.m)
-        .background(Theme.paperWhite.opacity(0.95))
+        .background(Theme.appBackground.opacity(0.95))
         .overlay(alignment: .bottom) {
             Rectangle().fill(Theme.hairline).frame(height: 1)
         }

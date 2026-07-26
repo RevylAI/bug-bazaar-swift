@@ -38,7 +38,7 @@ struct SpecimensView: View {
                 .padding(.bottom, Spacing.xl)
             }
         }
-        .background(Theme.paperWhite)
+        .background(Theme.appBackground)
     }
 
     private var statsRow: some View {

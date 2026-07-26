@@ -21,6 +21,6 @@ struct ShopView: View {
                 .padding(.bottom, Spacing.xl)
             }
         }
-        .background(Theme.paperWhite)
+        .background(Theme.appBackground)
     }
 }

@@ -83,7 +83,7 @@ struct MainTabsView: View {
 
             TabBarView(selected: $router.tab)
         }
-        .background(Theme.paperWhite)
+        .background(Theme.appBackground)
     }
 }
 
@@ -114,7 +114,7 @@ struct TabBarView: View {
         .padding(.top, 8)
         .padding(.horizontal, 8)
         .padding(.bottom, 20)
-        .background(Theme.paperWhite)
+        .background(Theme.appBackground)
         .overlay(alignment: .top) {
             Rectangle().fill(Color.black.opacity(0.1)).frame(height: 1)
         }

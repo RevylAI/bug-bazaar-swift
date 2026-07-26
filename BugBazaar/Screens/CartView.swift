@@ -32,7 +32,7 @@ struct CartView: View {
                 filledState
             }
         }
-        .background(Theme.paperWhite)
+        .background(Theme.appBackground)
     }
 
     private var emptyState: some View {
@@ -93,7 +93,7 @@ struct CartView: View {
                 .accessibilityIdentifier("checkout-button")
             }
             .padding(Spacing.m)
-            .background(Theme.paperWhite)
+            .background(Theme.appBackground)
             .overlay(alignment: .top) {
                 Rectangle().fill(Theme.hairline).frame(height: 1)
             }
