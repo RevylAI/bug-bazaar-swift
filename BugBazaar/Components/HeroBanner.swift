@@ -23,7 +23,7 @@ struct HeroBanner: View {
                     bottomTrailingRadius: 28,
                     topTrailingRadius: 24
                 )
-                .fill(Theme.mangoOrange)
+                .fill(Theme.hotRed)
                 HalftoneOverlay(dotSize: 1, spacing: 4, opacity: 0.12)
                     .clipShape(
                         UnevenRoundedRectangle(
