@@ -18,7 +18,7 @@ struct Product: Identifiable, Hashable {
 
 let allProducts: [Product] = [
     Product(id: 1, name: "Hercules Beetle", price: 45.00, emoji: "🪲", badge: .rare, category: "Beetles", description: "The mightiest of all beetles. Known for its incredible horn and strength. A true collector's specimen."),
-    Product(id: 2, name: "Blue Morpho", price: 28.50, emoji: "🦋", category: "Butterflies", description: "Iridescent blue wings that shimmer in the light. One of the most beautiful butterflies in the world."),
+    Product(id: 2, name: "Sapphire Morpho", price: 28.50, emoji: "🦋", category: "Butterflies", description: "Iridescent blue wings that shimmer in the light. One of the most beautiful butterflies in the world."),
     Product(id: 3, name: "Orchid Mantis", price: 62.00, emoji: "🦗", category: "Crawlers", description: "Masters of disguise. This stunning mantis mimics orchid petals to lure prey. Premium specimen."),
     Product(id: 4, name: "Gold Tortoise", price: 18.00, emoji: "🐞", badge: .new, category: "Beetles", description: "A tiny golden jewel. This beetle can change color from gold to reddish-brown. Freshly collected."),
     Product(id: 5, name: "Jumping Spider", price: 12.00, emoji: "🕷️", category: "Spiders", description: "Adorable and intelligent. Known for their curious nature and impressive jumping abilities."),
