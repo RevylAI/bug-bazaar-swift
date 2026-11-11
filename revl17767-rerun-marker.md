@@ -5,3 +5,5 @@ Rerun on 10801eaebd, push 1 (case b).
 Push 2 (case c).
 
 Push 3 (case e).
+
+Push 4 (case h, comment path).
