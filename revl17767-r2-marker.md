@@ -5,3 +5,5 @@ Push 1 (cases a, b).
 Push 2 (case c).
 
 Push 3 (case d).
+
+Push 4 (case e).
