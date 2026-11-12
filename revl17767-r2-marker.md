@@ -11,3 +11,5 @@ Push 4 (case e).
 Push 5 (case f).
 
 Push 6 (cases g, h link).
+
+Push 7 (case h, comment).
