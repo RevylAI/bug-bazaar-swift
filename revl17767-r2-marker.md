@@ -7,3 +7,5 @@ Push 2 (case c).
 Push 3 (case d).
 
 Push 4 (case e).
+
+Push 5 (case f).
